@@ -1,0 +1,22 @@
+echo # Django + Poetry ignore > .gitignore
+Set-Content -Path .gitignore -Value @"
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de dados local
+db.sqlite3
+
+# Arquivos de ambiente
+.env
+*.env
+
+# Logs
+*.log
+
+# Configurações de IDE
+.vscode/
+.idea/
+"@
